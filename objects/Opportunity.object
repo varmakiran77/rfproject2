@@ -314,6 +314,18 @@
         </filters>
         <label>Won</label>
     </listViews>
+    <recordTypes>
+        <fullName>op_sales</fullName>
+        <active>true</active>
+        <businessProcess>sales</businessProcess>
+        <label>op sales</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>op_service</fullName>
+        <active>true</active>
+        <businessProcess>sales</businessProcess>
+        <label>op service</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
