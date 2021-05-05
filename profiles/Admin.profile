@@ -9517,6 +9517,14 @@
         <layout>Opportunity-Formato de oportunidades</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Formato de oportunidades</layout>
+        <recordType>Opportunity.op_sales</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Formato de oportunidades</layout>
+        <recordType>Opportunity.op_service</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -11582,6 +11590,16 @@
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Opportunity.op_sales</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.op_service</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
